@@ -1,10 +1,10 @@
 {
-  "name": "@arioteam/dropdown-menui",
-  "version": "1.0.0",
+  "name": "@mohammadraufzahed/dropdown-menui",
+  "version": "1.0.1",
   "description": "Customizable dropdown menu",
   "main": "dist/index.js",
   "scripts": {
-    "postpublish": "npm run build",
+    "prepublish": "npm run build",
     "build": "webpack"
   },
   "repository": {
@@ -27,7 +27,7 @@
   },
   "keywords": ["react", "reactjs", "dropdown", "dropdown-menu"],
   "author": "Mohammad Raufzahed",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/mohammadraufzahed/dropdown-menui/issues"
   },
