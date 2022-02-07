@@ -1,0 +1,35 @@
+{
+  "name": "@arioteam/dropdown-menui",
+  "version": "1.0.0",
+  "description": "Customizable dropdown menu",
+  "main": "dist/index.js",
+  "scripts": {
+    "postpublish": "npm run build",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadraufzahed/dropdown-menui.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2"
+  },
+  "keywords": ["react", "reactjs", "dropdown", "dropdown-menu"],
+  "author": "Mohammad Raufzahed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadraufzahed/dropdown-menui/issues"
+  },
+  "homepage": "https://github.com/mohammadraufzahed/dropdown-menui#readme"
+}
